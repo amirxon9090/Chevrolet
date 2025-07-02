@@ -12,13 +12,13 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: white;
+    background-color: rgb(231, 231, 231);
     padding-right: px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
 }
 
-li {
+nav  li {
     float: left;
 }
 
@@ -243,4 +243,70 @@ background-color: rgb(34, 34, 172);
 .grid-container1 h2{
     font-size: 30px;
     color: rgb(35, 34, 33);
+}
+div>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    padding-right: px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    width: 200px;
+}
+
+
+
+div>li a {
+
+    color: rgb(154, 77, 0);
+   
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 250px;
+    padding-top: 35px;
+
+    padding-bottom: 10px;
+
+
+}
+.grid-container2{
+    position: absolute;
+    top: 100px;
+    left: 350px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: rgba(255, 255, 255, 0);
+    gap: 20px;
+}
+.grid-container2 img{
+    width: 290px;
+    height: 145px;
+
+}
+.grid-container2 h1{
+    font-size: 25px;
+    text-align: center;
+}
+.grid-container2 p{
+    font-size: 18px;
+    color: #E29724;
+}
+.grid-container2 h3{
+    font-size: 15px;
+    text-align: center;
+    margin-top: -35px;
+}
+.grid-container2 button{
+    padding: 10px 100px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 2px solid #E29724;
+    background-color: #00000000;
+}
+.grid-container2 button:hover{
+    background-color: #E29724;
+    color: #000;
+    transition: 500ms;
 }
